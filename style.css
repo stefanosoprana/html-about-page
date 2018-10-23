@@ -76,7 +76,6 @@ body {
 
 .red_btn{
   background: #DD5555;
-  float: none;
   padding: 10px 5px;
   text-decoration: none;
   border-radius: 4px;
@@ -142,4 +141,42 @@ body {
 
 .text h4 {
   margin: 10px;
+}
+
+.footer {
+  width: 97%;
+  margin-top: 0;
+  background: white;
+  float: left;
+  padding: 20px;
+}
+
+.footer h4 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.footer .icon a:hover {
+  color: #DD5555;
+}
+
+.footer p {
+  width: 50%;
+}
+
+.icon {
+  text-align: right;
+  color: #e5e7eb;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.icon a {
+  padding: 0 20px;
 }
