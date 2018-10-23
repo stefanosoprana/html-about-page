@@ -15,10 +15,10 @@ body {
 .container {
   width: 90%;
   height: 80%;
-  /* background: #e5e7eb; */
-  background: black;
+  background: #e5e7eb;
   margin: 10px auto;
   font-family: 'Open Sans', sans-serif;
+  color: #7d7d7d;
 }
 
 .container:after {
@@ -36,7 +36,6 @@ body {
 .bio {
   background: white;
   text-align: center;
-  color: #7d7d7d;
   padding-top: 20px;
   padding-bottom: 30px;
   border-radius: 4px;
@@ -107,16 +106,40 @@ body {
 
 .item i{
   display: block;
-
+  font-size: 25px;
 }
-/* .facebook i {
-  display: block;
-} */
-
 
 .cont_movies {
   width: 62%;
-  background: yellow;
-  height: 70px;
+  background: white;
   float: left;
+  padding: 43px 25px;
+  border-radius: 4px;
+}
+
+.cont_movies h3 {
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.movie {
+  width: 100%;
+  margin: 20px 0;
+  height: 115px;
+}
+
+.img_movie {
+  width: 80px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+.text p {
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+.text h4 {
+  margin: 10px;
 }
